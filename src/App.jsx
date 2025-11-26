@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -11,12 +12,15 @@ function App() {
     <>
       <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/destinations" element={<Destinations />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <main className="flex min-h-screen flex-col p-6">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/destinations" element={<Destinations />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+      <Footer />
     </>
   );
 }
