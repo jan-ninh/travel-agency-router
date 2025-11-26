@@ -3,9 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <div>
-        <button className="btn btn-accent"> About </button>
-      </div>
+      <p>
+        <h1> About</h1>
+      </p>
     </div>
   );
 };
