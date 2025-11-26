@@ -3,9 +3,9 @@ import React from "react";
 const Destinations = () => {
   return (
     <div>
-      <div>
-        <button className="btn btn-secondary"> Destinations </button>
-      </div>
+      <p>
+        <h1> Destinations</h1>
+      </p>
     </div>
   );
 };
