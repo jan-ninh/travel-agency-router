@@ -1,10 +1,11 @@
+import Destinations from "./pages/Destinations";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <>
-      <div>
-        <button className="btn btn-secondary"> Click me! </button>
-        Test
-      </div>
+      <Home />
+      <Destinations />
     </>
   );
 }
