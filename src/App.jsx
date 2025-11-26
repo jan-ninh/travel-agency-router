@@ -1,3 +1,5 @@
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Destinations from "./pages/Destinations";
 import Home from "./pages/Home";
 
@@ -6,6 +8,8 @@ function App() {
     <>
       <Home />
       <Destinations />
+      <About />
+      <Contact />
     </>
   );
 }
